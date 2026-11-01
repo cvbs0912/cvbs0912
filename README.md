@@ -1,8 +1,11 @@
 <div align="center">
 
-# 👋 سلام! من نیما دلیر هستم / Hi, I'm Nima Dalir
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/hero.svg">
+  <img src="assets/light/hero.svg" alt="Alireza Bakhari - Computer Science Student at the University of Oxford" width="840">
+</picture>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=Computer+Engineering+Student;Python+%7C+Termux+%7C+Offline+LLMs;AI+%26+Content+Creation;Game+Dev+%7C+3D+Design;Cyberpunk+Enthusiast)](https://git.io/typing-svg)
+# 👋 سلام! من علیرضا بخارائی هستم / Hi, I'm Alireza Bakhari
 
 </div>
 
@@ -10,40 +13,46 @@
 
 ## 🎓 درباره من / About Me
 
-<details>
-<summary><b>🇮🇷 فارسی</b></summary>
-<br>
+<div dir="rtl" align="right">
 
-**نیما دلیر**، متولد **۱۳۸۵** | **دانشجوی مهندسی کامپیوتر**
+**دانشجوی علوم کامپیوتر در دانشگاه آکسفورد** با تمرکز بر توسعه نرم‌افزار، زیرساخت و امنیت سایبری.
 
-🔭 **فوکوس اصلی:**
-- **Python** و محیط **Termux** (لینوکس روی موبایل/بدون روت)
-- اجرا و فاین‌تیون **LLMهای آفلاین** (Ollama, Llama.cpp, LM Studio) روی سخت‌افزارهای معمولی
-- **هوش مصنوعی کاربردی**: ساخت ایجنت‌های محلی، RAG، اتوماسیون با n8n
-- **تولید محتوا**: آموزش‌های تکنولوژی، AI، و ابزارهای اوپن‌سورس در یوتیوب/تلگرام
-- **بازی‌سازی** (Unity) — منطق، پروسیجرال جنریت، سیستم‌های AI
-- **طراحی سه‌بعدی** (Blender) — مدل‌سازی Hard-surface، نورپردازی، رندر برایویدیوهای آموزشی
+🔭 **فعالیت‌های فعلی:**
 
-💡 **فلسفه:** «ابزارهای قدرتمند، آزاد، و آفلاین — برای همه»
+- توسعه با **Python** (FastAPI، Django، ابزارهای CLI)
+- مدیریت سرور **Linux** (Ubuntu، Debian، Arch) و شبکه
+- ماشین‌های مجازی (**Proxmox**، **VMware**) برای محیط‌های تست
+- یادگیری **تست نفوذ** و **Bug Bounty**
+- ساخت **ایجنت‌های هوش مصنوعی آفلاین** و **اتوماسیون با n8n**
 
-</details>
+🎯 **اهداف:**
+
+- دریافت گواهینامه‌های **OSCP** و **OSWE** و ورود حرفه‌ای به Bug Bounty
+- مشارکت در **ابزارهای امنیتی و چارچوب‌های اتوماسیون متن‌باز**
+- پژوهش درباره **اتوماسیون امنیت مبتنی بر هوش مصنوعی**
+
+💡 **فلسفه:** «کد تمیز، معماری مقیاس‌پذیر، یادگیری بی‌پایان»
+
+</div>
 
 <details open>
 <summary><b>🇬🇧 English</b></summary>
-<br>
 
-**Nima Dalir**, Born **2006** | **Computer Engineering Student**
+**Computer Science Student at the University of Oxford** focusing on software development, infrastructure and cybersecurity.
 
-🔭 **Core Focus:**
-- **Python** & **Termux** (Linux on Android, no-root)
-- Running & Fine-tuning **Offline LLMs** (Ollama, Llama.cpp, LM Studio) on consumer hardware
-- **Applied AI**: Local Agents, RAG, Automation with n8n
-- **Content Creation**: Tech/AI tutorials, Open-source tools on YouTube & Telegram
-- **Game Dev** (Godot / Unity) — Logic, Procedural Generation, AI Systems
-- **3D Design** (Blender) — Hard-surface Modeling, Lighting, Render for Edu Videos
-- **Cyberpunk/Tech Aesthetic**: Neon, Terminals, CLI-first workflows
+🔭 **Current focus:**
+- **Python development** (FastAPI, Django, CLI tools, AsyncIO)
+- **Linux SysAdmin & networking** (Ubuntu/Debian/Arch, routing, firewalls, VPN, VLANs)
+- **Virtualization** (Proxmox, VMware, KVM, Vagrant) for homelab and security labs
+- Learning **penetration testing, bug bounty and server security** (OSCP path, TryHackMe, HackTheBox)
+- Building **offline AI agents** and **automation with n8n** (self-hosted)
 
-💡 **Philosophy:** "Powerful, Free, Offline Tools — For Everyone"
+🎯 **Goals:**
+- Earn **OSCP / OSWE** and move into professional bug bounty
+- Contribute to **open-source security tools** and **automation frameworks**
+- Research on **AI-driven security automation**
+
+💡 **Philosophy:** "Clean Code, Scalable Architecture, Continuous Learning"
 
 </details>
 
@@ -51,53 +60,167 @@
 
 ## 🛠 تکنولوژی‌ها و ابزارها / Tech Stack
 
-<div align="center">
+### 🐍 زبان‌ها و هسته / Languages & Core
 
-### 🐍 Core & AI
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&color=00FFFF&labelColor=0D1117)
-![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=gnu-bash&logoColor=white&color=B03AFF&labelColor=0D1117)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white&color=00FFFF&labelColor=0D1117)
-![Llama.cpp](https://img.shields.io/badge/Llama.cpp-000000?style=for-the-badge&logo=c%2B%2B&logoColor=white&color=8B5CF6&labelColor=0D1117)
-![LM Studio](https://img.shields.io/badge/LM_Studio-1A1A2E?style=for-the-badge&logo=windowsterminal&logoColor=white&color=00FFFF&labelColor=0D1117)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&color=00FFFF&labelColor=0D1117)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white&color=B03AFF&labelColor=0D1117)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=0D1117&color=FFFF00&labelColor=0D1117)
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/python.svg"><img src="assets/light/python.svg" alt="Python" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/bash.svg"><img src="assets/light/bash.svg" alt="Bash" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/go.svg"><img src="assets/light/go.svg" alt="Go" width="220"></picture>
+</p>
 
-### 🐧 Linux & Mobile
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=0D1117&color=00FFFF&labelColor=0D1117)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&color=00FFFF&labelColor=0D1117)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&color=00D4FF&labelColor=0D1117)
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/javascript.svg"><img src="assets/light/javascript.svg" alt="JavaScript" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/mysql.svg"><img src="assets/light/mysql.svg" alt="SQL" width="220"></picture>
+</p>
 
-### 🔧 Dev & Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&color=B03AFF&labelColor=0D1117)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&color=00FFFF&labelColor=0D1117)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=8B5CF6&labelColor=0D1117)
-![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white&color=39FF14&labelColor=0D1117)
+### 🐧 لینوکس و زیرساخت / Linux & Infrastructure
 
-</div>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/linux.svg"><img src="assets/light/linux.svg" alt="Linux" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ubuntu.svg"><img src="assets/light/ubuntu.svg" alt="Ubuntu" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/debian.svg"><img src="assets/light/debian.svg" alt="Debian" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/proxmox.svg"><img src="assets/light/proxmox.svg" alt="Proxmox" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/docker.svg"><img src="assets/light/docker.svg" alt="Docker" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/kubernetes.svg"><img src="assets/light/kubernetes.svg" alt="Kubernetes" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/terraform.svg"><img src="assets/light/terraform.svg" alt="Terraform" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ansible.svg"><img src="assets/light/ansible.svg" alt="Ansible" width="220"></picture>
+</p>
+
+### 🌐 شبکه و امنیت / Networking & Security
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/wireshark.svg"><img src="assets/light/wireshark.svg" alt="Wireshark" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nmap.svg"><img src="assets/light/nmap.svg" alt="Nmap" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/burpsuite.svg"><img src="assets/light/burpsuite.svg" alt="Burp Suite" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/metasploit.svg"><img src="assets/light/metasploit.svg" alt="Metasploit" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/openvpn.svg"><img src="assets/light/openvpn.svg" alt="OpenVPN" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/wireguard.svg"><img src="assets/light/wireguard.svg" alt="WireGuard" width="220"></picture>
+</p>
+
+### 🤖 هوش مصنوعی و اتوماسیون / AI & Automation
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/n8n.svg"><img src="assets/light/n8n.svg" alt="n8n" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ollama.svg"><img src="assets/light/ollama.svg" alt="Ollama" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/langchain.svg"><img src="assets/light/langchain.svg" alt="LangChain" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/huggingface.svg"><img src="assets/light/huggingface.svg" alt="Hugging Face" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/pytorch.svg"><img src="assets/light/pytorch.svg" alt="PyTorch" width="220"></picture>
+</p>
+
+### 🔧 ابزارهای توسعه / DevOps & Tools
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/git.svg"><img src="assets/light/git.svg" alt="Git" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/githubactions.svg"><img src="assets/light/githubactions.svg" alt="GitHub Actions" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cicd.svg"><img src="assets/light/cicd.svg" alt="CI/CD" width="220"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/vscode.svg"><img src="assets/light/vscode.svg" alt="VS Code" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/vim.svg"><img src="assets/light/vim.svg" alt="Vim" width="220"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/tmux.svg"><img src="assets/light/tmux.svg" alt="tmux" width="220"></picture>
+</p>
 
 ---
 
 ## 🚀 پروژه‌های شاخص / Featured Projects
 
-| پروژه | توضیح / Description | تکنولوژی / Stack | وضعیت |
-|--------|---------------------|-------------------|-------|
-| **[Termux-LLM-Toolkit](https://github.com/nima-dalir/termux-llm-toolkit)** | اسکریپت‌های آماده برای اجرا/مدیریت LLM محلی در Termux | Python, Bash, Ollama, Termux:API | 🟢 Active |
-| **[Offline-AI-Agent](https://github.com/nima-dalir/offline-ai-agent)** | ایجنت کاملاً آفلاین با Ollama + LangChain (بدون API Key) | Python, Ollama, LangChain, FastAPI | 🟢 Active |
-| **[Content-Auto](https://github.com/nima-dalir/content-auto)** | پایپ‌لاین اتوماسیون محتوا: اسکریپت → صدا → ویدیو (n8n + FFmpeg) | n8n, Python, FFmpeg, TTS | 🟡 WIP |
-| **[Blender-Assets](https://github.com/nima-dalir/blender-assets)** | کتابخانه مدل‌های 3D بهینه برای رندر سریع (Low-poly/PBR) | Blender, Python (Add-ons) | 🟢 Stable |
+
+<table align="center" width="100%">
+  <thead>
+    <tr>
+      <th>پروژه / Project</th>
+      <th>توضیح / Description</th>
+      <th>تکنولوژی / Stack</th>
+      <th>وضعیت / Status</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/secauto">SecAuto</a></b></td>
+    <td align="right" dir="rtl">فریم‌ورک اتوماسیون امنیت: اسکن، انومراسیون و گزارش‌گیری</td>
+    <td align="center"><code>Python, n8n, Docker, PostgreSQL</code></td>
+    <td align="center">🟢 فعال / Active</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/offline-ai-agents">OfflineAI-Agents</a></b></td>
+    <td align="right" dir="rtl">ایجنت‌های محلی با Ollama و LangChain (بدون نیاز به اینترنت)</td>
+    <td align="center"><code>Python, Ollama, LangChain, FastAPI</code></td>
+    <td align="center">🟢 فعال / Active</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/homelab-infra">Homelab-Infra</a></b></td>
+    <td align="right" dir="rtl">کدهای Terraform و Ansible برای هوم‌لب Proxmox</td>
+    <td align="center"><code>Terraform, Ansible, Proxmox</code></td>
+    <td align="center">🟡 در حال کار / WIP</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/netrecon">NetRecon</a></b></td>
+    <td align="right" dir="rtl">ابزار کشف شبکه و آسیب‌پذیری برای Bug Bounty</td>
+    <td align="center"><code>Go, Nmap, Nuclei, SQLite</code></td>
+    <td align="center">🔴 برنامه‌ریزی / Planning</td>
+  </tr>
+  <tr>
+    <td align="center"><b><a href="https://github.com/ndnimanima/pysectools">PySecTools</a></b></td>
+    <td align="right" dir="rtl">کتابخانه ابزارهای امنیتی پایتون (Hash, Crypto, Enum)</td>
+    <td align="center"><code>Python, Click, Rich</code></td>
+    <td align="center">🟢 پایدار / Stable</td>
+  </tr>
+  </tbody>
+</table>
+
+
+---
+
+## 👥 آشنایی با همکاران / Meet the Team
+
+<div dir="rtl" align="center">
+
+با همکارم **[نام همکار]**، محتوای آموزشی رایگان در حوزه **AI و اتوماسیون** تولید می‌کنیم.
+
+</div>
+
+<p align="center"><b>[نام همکار]</b> — <sub>[نقش / تخصص]</sub></p>
+
+
+<p align="center">
+  <a href="https://t.me/TELEGRAM_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-team-telegram.svg"><img src="assets/light/link-team-telegram.svg" alt="Telegram" width="220"></picture></a>
+  <a href="https://instagram.com/INSTAGRAM_ID"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-team-instagram.svg"><img src="assets/light/link-team-instagram.svg" alt="Instagram" width="220"></picture></a>
+</p>
 
 ---
 
 ## 📚 کانال‌های آموزشی / Educational Channels
 
-<div align="center">
+<p align="center">
+  <a href="YOUR_YOUTUBE_LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-youtube.svg"><img src="assets/light/link-channel-youtube.svg" alt="YouTube" width="220"></picture></a>
+  <a href="YOUR_TELEGRAM_LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-telegram.svg"><img src="assets/light/link-channel-telegram.svg" alt="Telegram" width="220"></picture></a>
+</p>
 
-**محتوا در حوزه: Offline AI، Termux، تولید محتوا، Game Dev، Blender**
+<p align="center">
+  <a href="YOUR_INSTAGRAM_LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-channel-instagram.svg"><img src="assets/light/link-channel-instagram.svg" alt="Instagram" width="220"></picture></a>
+</p>
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&color=00FFFF&labelColor=0D1117)](https://youtube.com/@your-channel)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&color=B03AFF&labelColor=0D1117)](https://t.me/your-channel)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&color=8B5CF6&labelColor=0D1117)](https://github.com/nima-dalir)
+<div dir="rtl" align="right">
+
+**موضوعات پوشش داده‌شده:**
+
+- 🤖 **هوش مصنوعی آفلاین:** Ollama، Llama.cpp، مدل‌های محلی، RAG
+- 🧠 **ایجنت‌های هوشمند:** LangChain، LangGraph، AutoGen، CrewAI (Self-hosted)
+- ⚡ **اتوماسیون با n8n:** Self-hosting، Custom Nodes، Webhooks، AI Workflows
+- 🔒 **امنیت در AI و اتوماسیون:** Prompt Injection، Data Privacy، Secure Deployments
 
 </div>
 
@@ -105,31 +228,64 @@
 
 ## 📊 آمار گیت‌هاب / GitHub Stats
 
-<div align="center">
 
-![Nima's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nima-dalir&show_icons=true&theme=tokyonight&locale=fa&count_private=true&include_all_commits=true&cache_seconds=1800&title_color=00FFFF&icon_color=B03AFF&text_color=FFFFFF&bg_color=0D1117)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nima-dalir&layout=compact&theme=tokyonight&langs_count=8&cache_seconds=1800&title_color=00FFFF&text_color=FFFFFF&bg_color=0D1117)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=nima-dalir&theme=tokyonight&locale=fa&cache_seconds=1800&background=0D1117&stroke=00FFFF&ring=B03AFF&fire=B03AFF&currStreakLabel=00FFFF)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-tan.vercel.app/api?username=ndnimanima&show_icons=true&theme=tokyonight&locale=fa&hide_border=true">
+    <img src="https://github-readme-stats-eight-tan.vercel.app/api?username=ndnimanima&show_icons=true&theme=default&locale=fa&hide_border=true" alt="GitHub Stats for ndnimanima" width="440">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-tan.vercel.app/api/top-langs/?username=ndnimanima&layout=compact&theme=tokyonight&langs_count=8&hide_border=true">
+    <img src="https://github-readme-stats-eight-tan.vercel.app/api/top-langs/?username=ndnimanima&layout=compact&theme=default&langs_count=8&hide_border=true" alt="Top Languages for ndnimanima" width="440">
+  </picture>
+</p>
 
-</div>
+---
+
+## 🏆 گواهی‌نامه‌ها و پیشرفت / Certifications & Progress
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dark/certs.svg">
+    <img src="assets/light/certs.svg" alt="Certifications and progress: OSCP, OSWE, eJPT/PNPT, CompTIA Security+, AWS SA" width="840">
+  </picture>
+</p>
 
 ---
 
 ## 🌐 پورتفولیو و ارتباط / Portfolio & Contact
 
+
+<p align="center">
+  <a href="YOUR_PORTFOLIO"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-portfolio.svg"><img src="assets/light/link-portfolio.svg" alt="Portfolio" width="220"></picture></a>
+  <a href="YOUR_LINKEDIN"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-linkedin.svg"><img src="assets/light/link-linkedin.svg" alt="LinkedIn" width="220"></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ndnimanima"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-github.svg"><img src="assets/light/link-github.svg" alt="GitHub" width="220"></picture></a>
+  <a href="mailto:YOUR_EMAIL"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-email.svg"><img src="assets/light/link-email.svg" alt="Email" width="220"></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://t.me/YOUR_TELEGRAM"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/link-contact-telegram.svg"><img src="assets/light/link-contact-telegram.svg" alt="Telegram" width="220"></picture></a>
+</p>
+
+---
+
+## 🤝 در حال جستجوی... / Looking For
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dark/looking-for.svg">
+    <img src="assets/light/looking-for.svg" alt="Looking For: research, bug bounty, internship, open source" width="840">
+  </picture>
+</p>
+
+---
+
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white&color=00FFFF&labelColor=0D1117)](https://nima-dalir.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&color=00FFFF&labelColor=0D1117)](https://linkedin.com/in/nima-dalir)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=B03AFF&labelColor=0D1117)](mailto:nima.dalir@example.com)
-
-</div>
-
---- 
-
-<div align="center">
-
-### ⭐ اگر پروژه‌هام براتون مفید بودن، استار دادن یادت نره!
+### ⭐ اگر پروژه‌هایم برایتان مفید بود، ستاره دادن فراموش نشه!
 ### ⭐ If you find my projects useful, consider giving a star!
 
 </div>
